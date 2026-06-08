@@ -1,12 +1,7 @@
-body {
-    background-color: black;
-    div{
-        background-color: yellow;
-        h1{
-            color: red;
-        }
-        p{
-            color: white;
-        }
-    }
+@use "styles/variables.scss" as *;
+@use "styles/navbar.scss";
+
+body{
+    background: linear-gradient(0deg, #1f44e5 0%, #000000 80%) no-repeat center;
+    min-height: 200vh;
 }

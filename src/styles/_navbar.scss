@@ -1,0 +1,21 @@
+header {
+  nav {
+    background-color: black !important;
+    div {
+      a {
+        color: white;
+        img {
+          max-width: 150px;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+}
+.nav-link-costume {
+  font-weight: 700;
+  &:hover {
+    text-decoration: underline;
+    color: blue !important;
+  }
+}
